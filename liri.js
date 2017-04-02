@@ -58,13 +58,13 @@ if (process.argv[2] === "movie-this") {
 var data = JSON.parse(body)
 		  console.log('error:', error);
 		  // console.log(response);
-		  console.log(data.Title); 
-		  console.log(data.Year);
-		  console.log(data.imbdRating);
-		  console.log(data.Country);
-		  console.log(data.Language);
-		  console.log(data.Plot);
-		  console.log(data.Actors);
+		  console.log("Title: " + data.Title); 
+		  console.log("Year: " + data.Year);
+		  console.log("Rating: " + data.imbdRating);
+		  console.log("Country: " + data.Country);
+		  console.log("Language: " + data.Language);
+		  console.log("Plot: " + data.Plot);
+		  console.log("Actors: " + data.Actors);
 
 });
 
